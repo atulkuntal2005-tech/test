@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "site_config": {
+      "description": "Global business configuration, phone, WhatsApp, and operating hours",
+      "fields": {
+        "businessName": { "type": "string" },
+        "address": { "type": "string" },
+        "phone": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "whatsappMessage": { "type": "string" },
+        "email": { "type": "string" },
+        "businessHours": { "type": "string" },
+        "googleMapsEmbedUrl": { "type": "string" }
+      }
+    },
+    "owners": {
+      "description": "Owner profiles for Jitendra Goyal and Hemant Goyal",
+      "fields": {
+        "name": { "type": "string" },
+        "designation": { "type": "string" },
+        "bio": { "type": "string" },
+        "photo": { "type": "string" },
+        "attire": { "type": "string" },
+        "visible": { "type": "boolean" },
+        "order": { "type": "number" },
+        "specialties": { "type": "array" }
+      }
+    },
+    "services": {
+      "description": "Commercial advisory and consultation services",
+      "fields": {
+        "title": { "type": "string" },
+        "slug": { "type": "string" },
+        "shortDescription": { "type": "string" },
+        "fullDescription": { "type": "string" },
+        "keyBenefits": { "type": "array" },
+        "targetAudience": { "type": "string" },
+        "processSteps": { "type": "array" },
+        "published": { "type": "boolean" },
+        "featured": { "type": "boolean" },
+        "order": { "type": "number" }
+      }
+    },
+    "faqs": {
+      "description": "Frequently asked questions for clients",
+      "fields": {
+        "question": { "type": "string" },
+        "answer": { "type": "string" },
+        "category": { "type": "string" },
+        "order": { "type": "number" },
+        "published": { "type": "boolean" }
+      }
+    },
+    "inquiries": {
+      "description": "Customer consultation and contact form submissions",
+      "fields": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "serviceInterest": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "timestamp" },
+        "status": { "type": "string" },
+        "adminNotes": { "type": "string" }
+      }
+    }
+  }
+}

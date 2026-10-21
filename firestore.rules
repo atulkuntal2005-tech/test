@@ -1,0 +1,67 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+        (request.auth.token.admin == true || 
+         request.auth.token.email == 'atulkuntal2005@gmail.com' ||
+         exists(/databases/$(database)/documents/admins/$(request.auth.uid)));
+    }
+
+    // Public Site Configuration & Business Info
+    match /site_config/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Services Collection
+    match /services/{serviceId} {
+      // Anyone can read published services; admins can read all
+      allow read: if resource.data.published == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // Owners Collection
+    match /owners/{ownerId} {
+      // Anyone can view visible owner profiles; admins can view all
+      allow read: if resource.data.visible == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // FAQs Collection
+    match /faqs/{faqId} {
+      allow read: if resource.data.published == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // Page Content & Legal Texts
+    match /pages/{pageId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Customer Inquiries
+    match /inquiries/{inquiryId} {
+      // Anyone can submit a valid contact inquiry
+      allow create: if request.resource.data.name is string &&
+                       request.resource.data.name.size() >= 2 &&
+                       request.resource.data.phone is string &&
+                       request.resource.data.phone.size() >= 7 &&
+                       request.resource.data.message is string &&
+                       request.resource.data.message.size() >= 5;
+      // Only authorized administrators can read, update, or delete inquiries
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Admin authorization document
+    match /admins/{userId} {
+      allow read, write: if isAdmin();
+    }
+  }
+}

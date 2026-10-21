@@ -1,0 +1,332 @@
+{
+  "siteData": {
+    "business": {
+      "businessName": "Shri Goyal Associates",
+      "tagline": "Commercial Advisory, Strategic Consultation & Regional Enterprise Support",
+      "address": "Mathura, Mandi Choraha, near Narsi Vihar, Uttar Pradesh, India — PIN 281004",
+      "street": "Mandi Choraha, near Narsi Vihar",
+      "area": "Mandi Choraha",
+      "city": "Mathura",
+      "state": "Uttar Pradesh",
+      "pincode": "281004",
+      "country": "India",
+      "phone": "",
+      "whatsapp": "",
+      "whatsappMessage": "Hello Shri Goyal Associates, I would like to enquire about your services.",
+      "email": "",
+      "businessHours": "Monday – Saturday: 9:30 AM – 7:30 PM, Sunday: Closed",
+      "googleMapsEmbedUrl": "https://www.google.com/maps?q=Mandi+Choraha,+near+Narsi+Vihar,+Mathura,+Uttar+Pradesh+281004&output=embed",
+      "googleMapsDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Mandi+Choraha,+near+Narsi+Vihar,+Mathura,+Uttar+Pradesh+281004"
+    },
+    "owners": [
+      {
+        "id": "jitendra-goyal",
+        "name": "Jitendra Goyal",
+        "designation": "Co-Founder & Senior Associate",
+        "bio": "Directing strategic commercial advisory and enterprise client relations at Shri Goyal Associates. Dedicated to fostering trustworthy business partnerships, commercial feasibility, and professional guidance across Mathura and the Western Uttar Pradesh region.",
+        "photo": "/uploads/ChatGPTImageMay292026at12_01_41AMpng_1792492415957.png",
+        "attire": "Navy-blue blazer and white shirt",
+        "visible": true,
+        "order": 1,
+        "phone": "",
+        "email": "",
+        "specialties": [
+          "Commercial Strategy",
+          "Business Consultation",
+          "Regional Trade Operations",
+          "Client Advisory"
+        ]
+      },
+      {
+        "id": "hemant-goyal",
+        "name": "Hemant Goyal",
+        "designation": "Co-Founder & Managing Partner",
+        "bio": "Leading statutory documentation, agreement frameworks, and procedural liaison for commercial clients. Provides rigorous operational guidance to ensure transparent execution, regulatory clarity, and structured compliance for business enterprises in Mathura.",
+        "photo": "/assets/aistudio/852243082_2083592802283499_2179126346531225521_n_00c05961.jpg",
+        "attire": "Grey blazer and black shirt",
+        "visible": true,
+        "order": 2,
+        "phone": "",
+        "email": "",
+        "specialties": [
+          "Documentation & Contracts",
+          "Regulatory Liaison",
+          "Operational Oversight",
+          "Enterprise Facilitation"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "id": "srv-commercial-advisory",
+        "title": "Commercial Business Advisory",
+        "slug": "commercial-business-advisory",
+        "shortDescription": "Strategic counsel and structured consultation for establishing, operating, and expanding commercial ventures in Mathura.",
+        "fullDescription": "Our Commercial Business Advisory service provides local entrepreneurs, trading firms, and regional enterprises with structured consultation on market entry, operational setup, vendor structuring, and ongoing business oversight. Shri Goyal Associates assists clients through every phase of the business lifecycle with high integrity and local market insights.",
+        "keyBenefits": [
+          "Tailored strategic roadmaps for new and existing businesses",
+          "In-depth Mathura and Western UP regional market perspective",
+          "Structured guidance on operations and vendor frameworks",
+          "Transparent fee structure and dedicated associate support"
+        ],
+        "targetAudience": "Entrepreneurs, trade partners, distributors, and established businesses seeking regional advisory in Mathura.",
+        "processSteps": [
+          "Initial discovery meeting and requirement assessment",
+          "Custom strategic consultation and feasibility evaluation",
+          "Documentation and execution advisory",
+          "Periodic milestone reviews and ongoing consultation"
+        ],
+        "published": true,
+        "featured": true,
+        "order": 1
+      },
+      {
+        "id": "srv-documentation-liaison",
+        "title": "Documentation & Regulatory Liaison",
+        "slug": "documentation-regulatory-liaison",
+        "shortDescription": "Thorough assistance with commercial documentation, agreements, filings, and official procedural representations.",
+        "fullDescription": "Navigating commercial documentation and regional regulatory workflows requires precision and local familiarity. Shri Goyal Associates helps clients prepare, review, and organize all necessary commercial filings, statutory paperwork, and formal agreements to ensure complete compliance and minimize operational friction.",
+        "keyBenefits": [
+          "Accurate drafting and verification of commercial paperwork",
+          "Prompt coordination with regional bodies and local authorities",
+          "Reduced risk of documentation errors or procedural delays",
+          "Confidential and reliable handling of client affairs"
+        ],
+        "targetAudience": "Commercial property owners, trading firms, contractors, and local enterprises.",
+        "processSteps": [
+          "Document audit and checklist preparation",
+          "Drafting and statutory review",
+          "Submission guidance and procedural follow-up",
+          "Final delivery and archival assistance"
+        ],
+        "published": true,
+        "featured": true,
+        "order": 2
+      },
+      {
+        "id": "srv-partnership-facilitation",
+        "title": "Contract & Partnership Facilitation",
+        "slug": "contract-partnership-facilitation",
+        "shortDescription": "Professional assistance in structuring business partnerships, vendor contracts, lease negotiations, and commercial agreements.",
+        "fullDescription": "Solid agreements form the cornerstone of successful commerce. We assist partners and commercial parties in structuring equitable terms, reviewing business clauses, and achieving consensus across contracts, commercial leases, and joint undertakings in Mathura.",
+        "keyBenefits": [
+          "Clear term structuring to prevent future disputes",
+          "Neutral facilitation between commercial stakeholders",
+          "Expert guidance on lease terms and trade conditions",
+          "Alignment with prevailing regional commercial practices"
+        ],
+        "targetAudience": "Landlords, tenants, business partners, suppliers, and retail associates.",
+        "processSteps": [
+          "Stakeholder consultation & objective mapping",
+          "Drafting terms of understanding and agreement covenants",
+          "Mutual review and adjustment facilitation",
+          "Final execution and formal recording"
+        ],
+        "published": true,
+        "featured": true,
+        "order": 3
+      },
+      {
+        "id": "srv-regional-enterprise",
+        "title": "Regional Enterprise Consultation",
+        "slug": "regional-enterprise-consultation",
+        "shortDescription": "Dedicated consultation for enterprises expanding operations or managing commercial investments in the Mathura district.",
+        "fullDescription": "Mathura is a rapidly developing commercial hub connecting Western Uttar Pradesh, the NCR corridor, and Rajasthan. Shri Goyal Associates offers on-ground consultation for firms establishing regional presence, selecting commercial locations near Mandi Choraha and key corridors, and coordinating local resources.",
+        "keyBenefits": [
+          "Local intelligence on zoning, transit corridors, and market centers",
+          "Network connectivity with local trade ecosystems",
+          "Risk mitigation for out-of-station investors and businesses",
+          "End-to-end local representation"
+        ],
+        "targetAudience": "Regional distributors, national brands setting up regional offices, and commercial investors.",
+        "processSteps": [
+          "Location feasibility and market orientation",
+          "Resource mapping and stakeholder introductions",
+          "Operational setup coordination",
+          "Continuous regional advisory"
+        ],
+        "published": true,
+        "featured": false,
+        "order": 4
+      }
+    ],
+    "faqs": [
+      {
+        "id": "faq-1",
+        "question": "Where is the office of Shri Goyal Associates located?",
+        "answer": "We are situated at Mandi Choraha, near Narsi Vihar, Mathura, Uttar Pradesh, PIN 281004. Our office is conveniently located along key arterial roads connecting Mathura city.",
+        "category": "General",
+        "order": 1,
+        "published": true
+      },
+      {
+        "id": "faq-2",
+        "question": "Who are the principal owners and associates of the firm?",
+        "answer": "Shri Goyal Associates is owned and led by Mr. Jitendra Goyal (Co-Founder & Senior Associate) and Mr. Hemant Goyal (Co-Founder & Managing Partner), who personally review client matters and direct consultations.",
+        "category": "General",
+        "order": 2,
+        "published": true
+      },
+      {
+        "id": "faq-3",
+        "question": "How can I schedule a consultation with Shri Goyal Associates?",
+        "answer": "You can click the Direct Call or WhatsApp button on our website for an immediate query, or complete our Contact Us form with your requirements. Our office will respond promptly to schedule a suitable consultation time.",
+        "category": "Consultation",
+        "order": 3,
+        "published": true
+      },
+      {
+        "id": "faq-4",
+        "question": "What are your standard business hours?",
+        "answer": "Our office operates Monday through Saturday from 9:30 AM to 7:30 PM. We are closed on Sundays and gazetted public holidays.",
+        "category": "General",
+        "order": 4,
+        "published": true
+      },
+      {
+        "id": "faq-5",
+        "question": "Do you offer in-person consultations at your Mathura office?",
+        "answer": "Yes, we welcome scheduled in-person meetings at our office at Mandi Choraha, near Narsi Vihar, Mathura. We recommend booking in advance to ensure our principal associates are available for your appointment.",
+        "category": "Consultation",
+        "order": 5,
+        "published": true
+      }
+    ],
+    "properties": [
+      {
+        "id": "prop-1",
+        "title": "Prime Commercial Plot near Mandi Choraha",
+        "slug": "prime-commercial-plot-mandi-choraha",
+        "propertyType": "commercial",
+        "location": "Near Mandi Choraha & Narsi Vihar, Mathura",
+        "size": "600 Sq. Yards",
+        "priceDisplay": "Price on Consultation",
+        "description": "Exceptional commercial plot strategically positioned with high arterial frontage near Mandi Choraha, Mathura. Ideal for multi-story corporate offices, retail complexes, diagnostics, or bank branches.",
+        "features": [
+          "Direct main-road frontage with wide approach",
+          "Clear freehold title & verified registry",
+          "Proximity to Mandi trading hub & residential colonies",
+          "Immediate possession & demarcation ready"
+        ],
+        "photos": ["/assets/aistudio/852110917_4313507005576552_5488164325380499531_n_3663ff77.jpg"],
+        "status": "available",
+        "featured": true,
+        "published": true,
+        "order": 1
+      },
+      {
+        "id": "prop-2",
+        "title": "Commercial Retail Space & Showroom",
+        "slug": "commercial-retail-space-showroom-mathura",
+        "propertyType": "office",
+        "location": "Arterial Corridor, Mathura, UP 281004",
+        "size": "1,800 Sq. Ft.",
+        "priceDisplay": "Available on Lease / Sale",
+        "description": "Ground floor commercial showroom with high visibility and dedicated customer parking. Suitable for national retail brands, pharmaceutical distribution, or financial institutions.",
+        "features": [
+          "Ground floor with 35 ft clear frontage",
+          "Heavy footfall trade location",
+          "3-phase commercial electrical load connection",
+          "Dedicated parking space for staff and visitors"
+        ],
+        "photos": ["/assets/aistudio/852243082_2083592802283499_2179126346531225521_n_00c05961.jpg"],
+        "status": "available",
+        "featured": true,
+        "published": true,
+        "order": 2
+      },
+      {
+        "id": "prop-3",
+        "title": "Industrial & Warehouse Land Parcel",
+        "slug": "industrial-warehouse-land-nh19",
+        "propertyType": "industrial",
+        "location": "NH-19 / Western Transit Corridor, Mathura",
+        "size": "2.5 Acres",
+        "priceDisplay": "Competitive Commercial Rate",
+        "description": "Level industrial land with wide truck approach, close to highway connectivity. Ideal for logistics hub, cold storage, packaging plant, or heavy warehousing.",
+        "features": [
+          "Direct link to NH-19 expressway",
+          "Wide turning radius for container trucks",
+          "Clear boundary wall & single ownership",
+          "Zoned for industrial and commercial usage"
+        ],
+        "photos": ["/assets/aistudio/852110917_4313507005576552_5488164325380499531_n_3663ff77.jpg"],
+        "status": "available",
+        "featured": false,
+        "published": true,
+        "order": 3
+      }
+    ],
+    "pageContent": {
+      "heroHeadline": "Trusted Commercial Advisory & Business Consultation in Mathura",
+      "heroSubtitle": "Founded and personally led by Jitendra Goyal and Hemant Goyal. Providing dedicated commercial guidance, documentation assistance, and professional enterprise consultations from Mandi Choraha, Mathura.",
+      "heroBadge": "Mathura, Uttar Pradesh · Mandi Choraha",
+      "aboutIntro": "Rooted in Mathura with deep regional market understanding and an unwavering commitment to professional integrity.",
+      "aboutStory": "Shri Goyal Associates was established to bring structured, dependable advisory services to businesses, traders, and commercial stakeholders across Mathura and Western Uttar Pradesh. Under the leadership of Jitendra Goyal and Hemant Goyal, the firm combines extensive local market awareness with rigorous professional standards.",
+      "aboutMission": "To deliver transparent, pragmatic, and high-value business consultation that enables local enterprises and commercial partners to thrive with legal clarity and operational confidence.",
+      "values": [
+        {
+          "title": "Integrity & Transparency",
+          "description": "Uncompromising ethical standards in every consultation, contract review, and business relationship."
+        },
+        {
+          "title": "Local Market Mastery",
+          "description": "Decades of combined familiarity with Mathura's commercial zones, trade corridors, and administrative processes."
+        },
+        {
+          "title": "Direct Owner Engagement",
+          "description": "Every client matter is personally analyzed and directed by Jitendra Goyal or Hemant Goyal."
+        },
+        {
+          "title": "Confidentiality & Precision",
+          "description": "Strict privacy safeguards for all client data, commercial strategies, and documentation records."
+        }
+      ],
+      "privacyPolicy": "At Shri Goyal Associates, we are committed to safeguarding your privacy and ensuring the security of your personal information.\n\n1. Information We Collect\nWe collect personal information that you voluntarily provide through our website contact forms, WhatsApp inquiries, or phone communications. This includes your name, phone number, email address, and consultation details.\n\n2. How We Use Information\nYour information is strictly used to:\n- Respond to inquiries and provide requested business consultations.\n- Prepare documentation and facilitate commercial agreements as requested.\n- Maintain client communication records.\n\n3. Information Sharing & Confidentiality\nWe do not sell, rent, or trade your personal information to third parties. Information is only shared when required by law or with your explicit consent for regulatory filings.\n\n4. Data Security\nWe implement standard technical and organizational measures to protect your data against unauthorized access, loss, or alteration.\n\n5. Contact Us\nFor any privacy-related queries, please contact Shri Goyal Associates at our registered office at Mandi Choraha, near Narsi Vihar, Mathura, UP 281004.",
+      "termsAndConditions": "Terms and Conditions of Use for Shri Goyal Associates Website.\n\n1. Acceptance of Terms\nBy accessing or using this website, you agree to be bound by these Terms and Conditions and our Privacy Policy.\n\n2. Informational Purpose\nThe content provided on this website is for general informational purposes and preliminary business introduction. It does not constitute formal legal or statutory advice until an official engagement is established.\n\n3. Proprietary Rights\nAll content, business marks, photographs of proprietors Jitendra Goyal and Hemant Goyal, and textual descriptions are the intellectual property of Shri Goyal Associates and may not be reproduced without written permission.\n\n4. Limitation of Liability\nShri Goyal Associates makes every effort to ensure information accuracy on this website. However, we do not warrant that all content is free from inadvertent typographical errors or regional regulatory updates.\n\n5. Jurisdiction\nAny disputes arising out of the use of this website or services provided by Shri Goyal Associates shall be subject to the exclusive jurisdiction of the competent courts in Mathura, Uttar Pradesh, India."
+    },
+    "seo": {
+      "defaultTitle": "Shri Goyal Associates – Business Advisory & Consultation, Mathura",
+      "titleTemplate": "%s | Shri Goyal Associates",
+      "defaultDescription": "Official website for Shri Goyal Associates at Mandi Choraha, near Narsi Vihar, Mathura, UP (PIN 281004). Led by Jitendra Goyal & Hemant Goyal. Commercial advisory, documentation liaison, and enterprise consultation.",
+      "canonicalBase": "https://shrigoyalassociates.com",
+      "ogImage": "/assets/aistudio/852110917_4313507005576552_5488164325380499531_n_3663ff77.jpg",
+      "keywords": [
+        "Shri Goyal Associates",
+        "Jitendra Goyal Mathura",
+        "Hemant Goyal Mathura",
+        "Business Advisory Mathura",
+        "Mandi Choraha Narsi Vihar Mathura",
+        "Commercial Consultation Mathura UP",
+        "Documentation Liaison Uttar Pradesh",
+        "Mathura Associates 281004"
+      ]
+    },
+    "branding": {
+      "primaryColor": "#0B1526",
+      "accentColor": "#C89B3C",
+      "logoText": "Shri Goyal Associates",
+      "logoSubtext": "Consultation & Advisory · Mathura",
+      "enableWhatsAppFloat": true,
+      "enableCallFloat": true
+    }
+  },
+  "admin": {
+    "username": "admin",
+    "salt": "97f384f882be1830e99b9a4f0a7fd73f",
+    "hash": "721578d3f6f7a65e3cdadd6d5de15cf38335123bcfb3049e02e9e0bebd3c6d50117df931208f8298d2a58dddb712ff503655cfeef4654abac16e6d0fbff54ba1",
+    "updatedAt": "2026-10-20T10:09:40.761Z"
+  },
+  "inquiries": [
+    {
+      "name": "Rohan Verma",
+      "phone": "+919876543210",
+      "email": "rohan@example.com",
+      "serviceInterest": "Commercial Business Advisory",
+      "message": "Inquiring about business setup near Mandi Choraha Mathura.",
+      "id": "inq-1792491012262-im835",
+      "createdAt": "2026-10-20T10:10:12.262Z",
+      "status": "new"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Shri Goyal Associates",
+  "description": "Official production website for Shri Goyal Associates in Mathura, UP. Dedicated business advisory, services, and owner profiles for Jitendra Goyal and Hemant Goyal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
